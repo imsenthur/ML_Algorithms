@@ -58,5 +58,5 @@ y_predict = [predict(i,b) for i in x_test]
 print("The squared error of the regression line is {}".format(r_sq))
 plt.scatter(x,y, color='y')
 plt.plot(x,regression_line, color ='b')
-plt.scatter(x_test,y_predict,color='r')
+plt.scatter(x_test,y_predict,color='g')
 plt.show()
