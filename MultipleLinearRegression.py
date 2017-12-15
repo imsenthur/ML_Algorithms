@@ -12,7 +12,7 @@ X = boston_data.data
 y = boston_data.target
 
 #splitting dataset into train and test data
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size =0.4, random_state =1)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size =0.5, random_state =1)
 
 #defining our classifier
 clf = linear_model.LinearRegression()
